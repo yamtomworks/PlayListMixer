@@ -1,17 +1,22 @@
-# playlist_mixer
+# Playlist Mixer
 
-A new Flutter project.
+Playlist Mixer is an iPhone app for creating playback queues by combining playlists, artists, and albums from the user's Music library.
 
-## Getting Started
+## Public Pages
 
-This project is a starting point for a Flutter application.
+These pages are prepared for GitHub Pages:
 
-A few resources to get you started if this is your first Flutter project:
+- Marketing URL: `https://yamtomworks.github.io/PlayListMixer/`
+- Support URL: `https://yamtomworks.github.io/PlayListMixer/support.html`
+- Privacy Policy: `https://yamtomworks.github.io/PlayListMixer/privacy.html`
+- AdMob app-ads.txt: `https://yamtomworks.github.io/PlayListMixer/app-ads.txt`
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Configure GitHub Pages to serve from `main` / `docs`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Development
+
+```sh
+flutter analyze
+flutter test
+flutter run
+```
